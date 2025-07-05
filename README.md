@@ -2,7 +2,7 @@
 
 WanderLust is a simple MERN travel blog website ✈ This project is aimed to help people to contribute in open source, upskill in react and also master git.
 
-![Preview Image](https://github.com/krishnaacharyaa/wanderlust/assets/116620586/17ba9da6-225f-481d-87c0-5d5a010a9538)
+![Wanderlust](https://github.com/user-attachments/assets/20ec4688-d954-4bf3-b613-311dd17d6c65)
 #
 
 # Wanderlust Mega Project End to End Implementation
@@ -10,7 +10,7 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 ### In this demo, we will see how to deploy an end to end three tier MERN stack application on EKS cluster.
 #
 ### <mark>Project Deployment Flow:</mark>
-<img src="https://github.com/DevMadhup/Wanderlust-Mega-Project/blob/main/Assets/DevSecOps%2BGitOps.gif" />
+![DevSecOps+GitOps](https://github.com/user-attachments/assets/88585a87-405d-4eee-9772-4aee32cab01a)
 
 #
 
@@ -96,7 +96,7 @@ sudo apt-get install jenkins -y
 #
 - <b id="EKS">Create EKS Cluster on AWS (Master machine)</b>
   - IAM user with **access keys and secret access keys**
-  - AWSCLI should be configured (<a href="https://github.com/DevMadhup/DevOps-Tools-Installations/blob/main/AWSCLI/AWSCLI.sh">Setup AWSCLI</a>)
+  - AWSCLI should be configured (<a href="https://github.com/venkyscafe/DevOps-Tools-Installations/blob/main/AWSCLI/AWSCLI.sh">Setup AWSCLI</a>)
   ```bash
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   sudo apt install unzip
@@ -105,7 +105,7 @@ sudo apt-get install jenkins -y
   aws configure
   ```
 
-  - Install **kubectl** (Master machine)(<a href="https://github.com/DevMadhup/DevOps-Tools-Installations/blob/main/Kubectl/Kubectl.sh">Setup kubectl </a>)
+  - Install **kubectl** (Master machine)(<a href="https://github.com/venkyscafe/DevOps-Tools-Installations/blob/main/Kubectl/Kubectl.sh">Setup kubectl </a>)
   ```bash
   curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
   chmod +x ./kubectl
@@ -113,7 +113,7 @@ sudo apt-get install jenkins -y
   kubectl version --short --client
   ```
 
-  - Install **eksctl** (Master machine) (<a href="https://github.com/DevMadhup/DevOps-Tools-Installations/blob/main/eksctl%20/eksctl.sh">Setup eksctl</a>)
+  - Install **eksctl** (Master machine) (<a href="https://github.com/venkyscafe/DevOps-Tools-Installations/blob/main/eksctl/eksctl.sh">Setup eksctl</a>)
   ```bash
   curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
   sudo mv /tmp/eksctl /usr/local/bin
@@ -159,7 +159,7 @@ sudo apt-get install jenkins -y
   - Create an IAM role with <mark>administrator access</mark> attach it to the jenkins worker node <mark>Select Jenkins worker node EC2 instance --> Actions --> Security --> Modify IAM role</mark>
   ![image](https://github.com/user-attachments/assets/1a9060db-db11-40b7-86f0-47a65e8ed68b)
 
-  - Configure AWSCLI (<a href="https://github.com/DevMadhup/DevOps-Tools-Installations/blob/main/AWSCLI/AWSCLI.sh">Setup AWSCLI</a>)
+  - Configure AWSCLI (<a href="https://github.com/venkyscafe/DevOps-Tools-Installations/blob/main/AWSCLI/AWSCLI.sh">Setup AWSCLI</a>)
   ```bash
   sudo su
   ```
